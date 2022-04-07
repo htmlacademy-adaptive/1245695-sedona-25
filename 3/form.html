@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <base href="https://htmlacademy-adaptive.github.io/1245695-sedona-25/3/">
+</head>
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo">
+        <img class="main-header__logo--image" src="img/logo-sedona.svg" width="185" height="96" alt="Седона">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      </nav>
+    </header>
+    <main class="main-container">
+      <h1 class="visually-hidden">Седона</h1>
+      <div class="feedback__wrapper">
+        <h3 class="feedback__slogan">Оставьте свой отзыв</h3>
+        <p class="feedback__intro">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      </div>
+      <div class="introduce-contact">
+        <section class="introduce-yourself">
+          <div class="introduce-yourself__wrapper">
+            <h3 class="introduce-yourself__title">Представьтесь:</h3>
+            <form action="https://echo.htmlacademy.ru/" method="post">
+              <div class="introduce-yourself__name">
+                <label>ИМЯ*:</label>
+                <input type="text" id="name" name="name" value="Пётр" required>
+                <label>ФАМИЛИЯ*:</label>
+                <input type="text" id="name" name="name" value="Пустота" required>
+                <label>Отчество:</label>
+                <input type="text" id="name" name="name" value="Викторович">
+              </div>
+            </form>
+          </div>
+        </section>
+        <section class="contact-information">
+          <div class="contact-information__wrapper">
+            <h3 class="contact-information__title">Контактная информация:</h3>
+            <div class="contact__details">
+              <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
+                <label>Контактный телефон*:</label>
+                <input type="tel" id="appointment-tel" name="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Введите телефон" required>
+                <button class="tel__button">
+                  <img class="tel__button--image" src="img/call.svg" width="58" height="58" alt="Отправить">
+                  <span class="visually-hidden">Позвонить</span>
+                </button>
+                <label>Электронная почта*:</label>
+                <input type="email" id="appointment-e-mail" name="email" placeholder="Введите e-mail" required>
+                <button class="email__button">
+                  <img class="email__button--image" src="img/to-send.svg" width="58" height="58" alt="Отправить">
+                  <span class="visually-hidden">Отправить</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <div class="data-error">
+          <h3 class="data-error__title">ЧТО-ТО ПОШЛО НЕ ТАК!</h3>
+          <p class="data-error__intro">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+          <button class="ok__button" type="submit">OK</button>
+        </div>
+      </div>
+    </main>
+
+
+
+    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+
+  </body>
+</html>
