@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html class="page" lang="ru">
   <head>
@@ -7,11 +8,13 @@
 </head>
   <body class="page__body">
     <header class="main-header">
-      <a class="main-header__logo">
+      <a class="main-header__logo" href="index.html">
         <img class="main-header__logo-image" src="img/logo-sedona.svg" width="185" height="96" alt="Седона">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item-active">
@@ -41,37 +44,37 @@
           <li class="catalog-sorting__item">
             <h3 class="catalog-sorting__title">Неродные просторы</h3>
             <p class="catalog-sorting__intro">Автор фото: Борис</p>
-            <img class="catalog-sorting__title-image" src="img/open-spaces.jpg" width="280" height="280" alt="Неродные просторы">
-            <a class="catalog-sorting__like">
-              <img src="img/like-icon.svg" width="23" height="21" alt="Лайки">
+            <a class="catalog-sorting__title-image">
+              <img src="img/open-spaces.jpg" width="280" height="280" alt="Неродные просторы">
             </a>
+            <img class="catalog-sorting__like" src="img/like-icon.svg" width="23" height="21" alt="Лайки">
             <span class="catalog-sorting__amount">1350</span>
           </li>
           <li class="catalog-sorting__item">
             <h3 class="catalog-sorting__title">Местная растительность</h3>
             <p class="catalog-sorting__intro">Автор фото: Сергей</p>
-            <img class="catalog-sorting__title-image" src="img/vegetation.jpg" width="280" height="280" alt="Местная растительность">
-            <a class="catalog-sorting__like">
-              <img src="img/like-icon.svg" width="23" height="21" alt="Лайки">
+            <a class="catalog-sorting__title-image">
+              <img src="img/vegetation.jpg" width="280" height="280" alt="Местная растительность">
             </a>
+            <img class="catalog-sorting__like" src="img/like-icon.svg" width="23" height="21" alt="Лайки">
             <span class="catalog-sorting__amount">143</span>
           </li>
           <li class="catalog-sorting__item">
             <h3 class="catalog-sorting__title">Дорога на север</h3>
             <p class="catalog-sorting__intro">Автор фото: Петр</p>
-            <img class="catalog-sorting__title-image" src="img/road.jpg" width="280" height="280" alt="Дорога на север">
-            <a class="catalog-sorting__like">
-              <img src="img/like-icon.svg" width="23" height="21" alt="Лайки">
+            <a class="catalog-sorting__title-image">
+              <img src="img/road.jpg" width="280" height="280" alt="Дорога на север">
             </a>
+            <img class="catalog-sorting__like" src="img/like-icon.svg" width="23" height="21" alt="Лайки">
             <span class="catalog-sorting__amount">96</span>
           </li>
           <li class="catalog-sorting__item">
             <h3 class="catalog-sorting__title">Мост дьявола</h3>
             <p class="catalog-sorting__intro">Автор фото: Антон</p>
-            <img class="catalog-sorting__title-image" src="img/photo-bridge.jpg" width="280" height="280" alt="Мост дьявола">
-            <a class="catalog-sorting__like">
-              <img src="img/like-icon.svg" width="23" height="21" alt="Лайки">
+            <a class="catalog-sorting__title-image">
+              <img src="img/photo-bridge.jpg" width="280" height="280" alt="Мост дьявола">
             </a>
+            <img class="catalog-sorting__like" src="img/like-icon.svg" width="23" height="21" alt="Лайки">
             <span class="catalog-sorting__amount">254</span>
           </li>
         </ul>
@@ -79,7 +82,12 @@
       <section class="doubts">
         <h2 class="doubts__title">Все еще сомневаетесь?</h2>
         <p class="doubts__intro">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
-        <img class="doubts__title-image" src="img/video-mobile.jpg" width="280" height="177" alt="Видео">
+        <div class="doubts__player">
+          <img class="doubts__title-image" src="img/video-mobile.jpg" width="280" height="177" alt="Видео">
+          <button class="doubts__play" type="button">
+            <span class="visually-hidden">Воспроизвести</span>
+          </button>
+        </div>
       </section>
     </main>
     <footer class="main-footer">
@@ -114,3 +122,5 @@
     </footer>
   </body>
 </html>
+
+
