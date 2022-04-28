@@ -43,7 +43,7 @@
   line-height: 21px;
   color: #333333;
 }
-.advantages__list {
+.advantages__wrapper .advantages__list {
   font-size: 18px;
   line-height: 26px;
   margin-bottom: 39px;
@@ -51,15 +51,15 @@
   color: #000000;
   background-color: #eeeeee;
 }
-.advantages__list .advantages__title {
+.advantages__wrapper .advantages__list .advantages__title {
   font-size: 18px;
   line-height: 26px;
 }
-.advantages__list .advantages__item:nth-child(1) {
+.advantages__wrapper .advantages__list .advantages__item:nth-child(1) {
   color: #ffffff;
   background-color: #81b3d2;
 }
-.advantages__list .advantages__item:nth-child(2) {
+.advantages__wrapper .advantages__list .advantages__item:nth-child(2) {
   color: #ffffff;
   background-color: #81b3d2;
 }
@@ -85,7 +85,7 @@
   color: #000000;
   background-color: #ffffff;
 }
-.main-footer__wrapper .copyright__text {
+.copyright__text {
   font-size: 14px;
   line-height: 21px;
 }
@@ -108,7 +108,7 @@
   text-transform: uppercase;
   color: #333333;
 }
-.introduce-yourself__name input[type="text"] {
+.introduce-yourself__name .introduce-yourself__personal-data-control[type="text"] {
   width: 280px;
   height: 58px;
   background-color: #f2f2f2;
@@ -126,7 +126,7 @@
   text-transform: uppercase;
   color: #333333;
 }
-.contact-information__details input[type="tel"] {
+.contact-information__details .contact-information__tel-control[type="tel"] {
   width: 222px;
   height: 58px;
   background-color: #f2f2f2;
@@ -138,7 +138,7 @@
   color: rgba(0, 0, 0, 0.3);
   border: none;
 }
-.contact-information__details input[type="email"] {
+.contact-information__details .contact-information__email-control[type="email"] {
   width: 222px;
   height: 58px;
   background-color: #f2f2f2;
@@ -179,15 +179,16 @@
   text-transform: uppercase;
   color: #000000;
 }
-.emotions .emotions__field {
+.emotions__field {
   width: 279px;
   height: 150px;
   background-color: #f2f2f2;
   font-family: "PT Sans", sans-serif;
-  padding: 16px;
-  font-weight: 700;
   font-size: 18px;
   line-height: 26px;
+  font-weight: 700;
+  text-transform: none;
+  padding: 16px;
   color: rgba(0, 0, 0, 0.3);
   border: none;
 }
